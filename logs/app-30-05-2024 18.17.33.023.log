@@ -1,0 +1,10 @@
+2024-05-30 18:17:33,841 INFO c.s.l.LocalListener [main] $("webdriver") create()
+2024-05-30 18:17:34,354 INFO c.s.l.LocalListener [main] $("open") https://react-shopping-cart-67954.firebaseapp.com/
+2024-05-30 18:17:34,610 INFO c.s.l.LocalListener [main] $("p[class = 'sc-124al1g-4 eeXMBo'][0]") should be([visible, 10 s.])
+2024-05-30 18:17:34,625 INFO c.s.l.LocalListener [main] $("p[class = 'sc-124al1g-4 eeXMBo'][0]") get text()
+2024-05-30 18:17:34,644 INFO c.s.l.LocalListener [main] $("By.xpath: //*[text() = 'Add to cart'][0]") should be([clickable: interactable and enabled, 10 s.])
+2024-05-30 18:17:34,648 INFO c.s.l.LocalListener [main] $("By.xpath: //*[text() = 'Add to cart'][0]") exists()
+2024-05-30 18:17:34,684 INFO c.s.l.LocalListener [main] $("By.xpath: //*[text() = 'Add to cart'][0]") click()
+2024-05-30 18:17:34,941 INFO c.s.l.LocalListener [main] $("p[class = 'sc-11uohgb-2 elbkhN'][0]") should be([visible, 10 s.])
+2024-05-30 18:17:34,951 INFO c.s.l.LocalListener [main] $("p[class = 'sc-11uohgb-2 elbkhN'][0]") get text()
+2024-05-30 18:17:35,034 INFO c.s.l.LocalListener [main] $("webdriver") close()

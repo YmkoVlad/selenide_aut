@@ -21,11 +21,20 @@ public class CartPage {
     private final ElementsCollection allNameProductInCartCSS = $$(By.cssSelector("p[class = 'sc-11uohgb-2 elbkhN']"));
     private final SelenideElement closeCartBtnCSS = $(By.cssSelector("button[class='sc-1h98xa9-0 gFkyvN']"));
 
+    /**
+     * возвращает имя продукта в корзине (по индексу)
+     * @param index
+     * @return
+     */
     public String getNameProductInCart(int index) {
         allNameProductInCartCSS.get(index).shouldBe(visible, Duration.ofSeconds(10));
         return allNameProductInCartCSS.get(index).getText();
     }
 
+    /**
+     * возвращает лист имён продуктов в корзине
+     * @return
+     */
     public List<String> getAllNameProductInCart() {
         allNameProductInCartCSS.get(0).shouldBe(visible, Duration.ofSeconds(10));
         List<String> allNameProductInCartCSSList = new ArrayList<>();
